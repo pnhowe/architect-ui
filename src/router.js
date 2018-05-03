@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import PlanList from './pages/plan-list'
 import PlanDetails from './pages/plan-details'
+import Project from './pages/project'
 
 Vue.use(Router)
 
@@ -21,6 +22,11 @@ export default new Router({
       path: '/plan',
       name: 'PlanDetails',
       component: PlanDetails
+    },
+    {
+      path: '/project',
+      name: 'Project',
+      component: Project
     }
   ]
 })
